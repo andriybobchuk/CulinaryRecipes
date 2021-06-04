@@ -1,0 +1,24 @@
+{
+    "recipes": [
+        {
+            "description": "take water, put varenyky inside",
+            "ingredients": "flour, water, that's all",
+            "title": "Varenyky"
+        },
+        {
+            "description": "description of my hot dog",
+            "ingredients": "sausage, ketchup, that's all",
+            "title": "Hot Dog"
+        },
+        {
+            "description": "kurwa",
+            "ingredients": "beetroot, water, that's all",
+            "title": "Borsch"
+        },
+        {
+            "description": "B",
+            "ingredients": "C",
+            "title": "A"
+        }
+    ]
+}
