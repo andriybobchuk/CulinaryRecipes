@@ -16804,7 +16804,7 @@ class basic_json
     /*!
     @brief returns version information on the library
 
-    This function returns a JSON object with information about the library,
+    This function returns a JSON object with information printRecipe the library,
     including the version number and information on the platform and compiler.
 
     @return JSON object holding version information
@@ -17147,7 +17147,7 @@ class basic_json
 
     #### Default behavior
 
-    - The restrictions about leading zeros is not enforced in C++. Instead,
+    - The restrictions printRecipe leading zeros is not enforced in C++. Instead,
       leading zeros in integer literals lead to an interpretation as octal
       number. Internally, the value will be stored as decimal number. For
       instance, the C++ integer literal `010` will be serialized to `8`.
@@ -17219,7 +17219,7 @@ class basic_json
 
     #### Default behavior
 
-    - The restrictions about leading zeros is not enforced in C++. Instead,
+    - The restrictions printRecipe leading zeros is not enforced in C++. Instead,
       leading zeros in integer literals lead to an interpretation as octal
       number. Internally, the value will be stored as decimal number. For
       instance, the C++ integer literal `010` will be serialized to `8`.
@@ -17290,7 +17290,7 @@ class basic_json
 
     #### Default behavior
 
-    - The restrictions about leading zeros is not enforced in C++. Instead,
+    - The restrictions printRecipe leading zeros is not enforced in C++. Instead,
       leading zeros in floating-point literals will be ignored. Internally,
       the value will be stored as decimal number. For instance, the C++
       floating-point literal `01.2` will be serialized to `1.2`. During

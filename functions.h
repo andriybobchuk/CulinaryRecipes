@@ -12,8 +12,12 @@
  * Reads JSON file and returns vector of Recipe objects
  * @return vector of Recipe objects
  */
-std::vector<Recipe> jsonToObjects ();
+std::vector<Recipe> objectsFromFile ();
 
-void writeJSON ();
+void fileFromObjects ();
+
+void mainMenu ();
+
+void listRecipes ();
 
 #endif //CULINARYRECIPS_FUNCTIONS_H

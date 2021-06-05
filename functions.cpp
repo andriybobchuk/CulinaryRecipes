@@ -9,7 +9,7 @@
 #include "json.hpp"
 #include "Recipe.h"
 
-void writeJSON () {
+void fileFromObjects () {
     nlohmann::json j =
             {
                     {
@@ -64,7 +64,7 @@ void writeJSON () {
 
 
 
-std::vector<Recipe> jsonToObjects () {
+std::vector<Recipe> objectsFromFile () {
     std::ifstream file("C:\\Users\\Andriy\\CLionProjects\\CulinaryRecips\\CulinaryBook.json");
     nlohmann::json j = nlohmann::json::parse(file);
 
@@ -83,11 +83,66 @@ std::vector<Recipe> jsonToObjects () {
                      j["recipes"][i]["description"],
                      j["recipes"][i]["ingredients"]);
 
-
             // Adding this Recipe object to vector of objects
             recipes.push_back(currentRecipe);
+
         }
     }
     return recipes;
+}
+
+
+
+void mainMenu () {
+    std::cout << "======================================================================\n";
+    std::cout << "MAIN MENU                                                             \n";
+    std::cout << "Type a switch:                                                        \n";
+    std::cout << "-a    to add new recipe                                              \n";
+    std::cout << "-s    to search for the recipe by ingredient                         \n";
+    std::cout << "-l    to list names of all known recipes                             \n";
+
+    std::string choice;
+    std::cin >> choice;
+
+    if (choice == "-a") {
+        // TODO: fileFromObjects();
+    } else if (choice == "-s") {
+        // TODO: Search
+    } else if (choice == "-l") {
+        // TODO: Print a list
+        listRecipes();
+
+    } else {
+        std::cerr << "Wrong switch\n";
+        mainMenu();
+    }
+}
+
+void listRecipes () {
+    system("CLS");
+    std::cout << "FOUND " << objectsFromFile().size() << " RECIPES:\n";
+    for (int i = 0; i <= objectsFromFile().size() - 1; i ++) {
+        objectsFromFile()[i].printRecipeTitle();
+        std::cout << "\t\t (Press " << i+1 << " to view)\n";
+    }
+    std::cout << "BACK TO MENU (0) \n";
+
+    int choice;
+    std::cin >> choice;
+    if (choice == 0) {
+        mainMenu();
+    } else if (choice >= 1 && choice <= objectsFromFile().size()-1) {
+        objectsFromFile()[choice-1].printRecipe();
+        std::cout << "BACK TO MENU (0) \n";
+        int choice;
+        std::cin >> choice;
+        if (choice == 0) {
+            mainMenu();
+        }
+    } else {
+        std::cerr << "Wrong switch\n";
+        listRecipes();
+    }
+
 }
 

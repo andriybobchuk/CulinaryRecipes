@@ -14,14 +14,17 @@ class Recipe {
     std::string description;
     std::string ingredients;
 
-    static int numOfRecipes;
+    static int counter;
 
 public:
     Recipe(std::string title, std::string description, std::string ingredients);
 
     ~Recipe();
 
-    void toString();
+    void printRecipe();
+
+    void printRecipeTitle();
+
 
 };
 
