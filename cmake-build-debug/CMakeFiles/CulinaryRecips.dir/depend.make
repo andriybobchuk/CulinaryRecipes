@@ -4,10 +4,12 @@
 CMakeFiles/CulinaryRecips.dir/Recipe.cpp.obj: ../Recipe.cpp
 CMakeFiles/CulinaryRecips.dir/Recipe.cpp.obj: ../Recipe.h
 
+CMakeFiles/CulinaryRecips.dir/functions.cpp.obj: ../Recipe.h
 CMakeFiles/CulinaryRecips.dir/functions.cpp.obj: ../functions.cpp
 CMakeFiles/CulinaryRecips.dir/functions.cpp.obj: ../functions.h
 CMakeFiles/CulinaryRecips.dir/functions.cpp.obj: ../json.hpp
 
+CMakeFiles/CulinaryRecips.dir/main.cpp.obj: ../Recipe.h
 CMakeFiles/CulinaryRecips.dir/main.cpp.obj: ../functions.h
 CMakeFiles/CulinaryRecips.dir/main.cpp.obj: ../main.cpp
 

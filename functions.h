@@ -5,9 +5,14 @@
 #ifndef CULINARYRECIPS_FUNCTIONS_H
 #define CULINARYRECIPS_FUNCTIONS_H
 
-void readFile();
+#include <vector>
+#include "Recipe.h"
 
-void writeXML ();
+/**
+ * Reads JSON file and returns vector of Recipe objects
+ * @return vector of Recipe objects
+ */
+std::vector<Recipe> jsonToObjects ();
 
 void writeJSON ();
 

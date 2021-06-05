@@ -7,6 +7,7 @@
 #include <iomanip>
 #include "functions.h"
 #include "json.hpp"
+#include "Recipe.h"
 
 void writeJSON () {
     nlohmann::json j =
@@ -51,10 +52,7 @@ void writeJSON () {
 
 
 
-//    if (c.key() == "recipes")
-//    {
-//        std::cout << c.key().at(0);
-//    }
+
 
 
 
@@ -64,46 +62,32 @@ void writeJSON () {
 }
 
 
-void readFile() {
 
 
-    std::ifstream inFile;
-    inFile.open("C:\\Users\\Andriy\\CLionProjects\\CulinaryRecips\\input.txt");
+std::vector<Recipe> jsonToObjects () {
+    std::ifstream file("C:\\Users\\Andriy\\CLionProjects\\CulinaryRecips\\CulinaryBook.json");
+    nlohmann::json j = nlohmann::json::parse(file);
 
-    if (!inFile) {
-        std::cerr << "Unable to open file to read recipes from";
-        exit(1);   // call system to stop
-    }
+    // Vector of RECIPE objects which we will fill using JSON objects
+    std::vector<Recipe> recipes;
 
-    char character;
-    std::string word;
-    std::string sLine;
-    while (!inFile.eof())//While Not end of file
+    // Reading JSON
+    nlohmann::json::iterator c = j.find("recipes");
+    if (c.key() == "recipes")
     {
-        character = inFile.get();//reading file with spaces
-        word += character;
-        if (word == "TITLE:") {
+        // From each element of JSON array we compose a Recipe object
+        for (int i = 0; i <= c.value().size()-1; i++)
+        {
+            // Construct Recipe object filling the appropriate fields
+            Recipe currentRecipe(j["recipes"][i]["title"],
+                     j["recipes"][i]["description"],
+                     j["recipes"][i]["ingredients"]);
 
-            while (!inFile.eof())//While Not end of file
-            {
-                getline(inFile, sLine);
-            }
 
-            std::cout << sLine << std::endl;
-
-            word = "";
+            // Adding this Recipe object to vector of objects
+            recipes.push_back(currentRecipe);
         }
-
-
-
-        //std::cout << sLine << std::endl;
-
     }
-    inFile.close();
-
-}
-
-void writeXML () {
-
+    return recipes;
 }
 

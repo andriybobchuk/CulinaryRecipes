@@ -3,7 +3,11 @@
 
 int main() {
 
-   // readFile();
-    writeJSON();
+    if (jsonToObjects().empty()) {
+        // TODO: Suggest user to write some stuff to JSON
+    } else {
+
+    }
+
     return 0;
 }

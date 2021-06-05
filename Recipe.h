@@ -7,20 +7,21 @@
 
 
 #include <string>
-#include <map>
 
 class Recipe {
 
     std::string title;
     std::string description;
-    std::map<std::string, std::string> ingredients;
+    std::string ingredients;
 
     static int numOfRecipes;
 
 public:
-    Recipe(std::string title, std::string description, std::map<std::string, std::string> ingredients);
+    Recipe(std::string title, std::string description, std::string ingredients);
 
     ~Recipe();
+
+    void toString();
 
 };
 

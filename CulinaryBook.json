@@ -11,14 +11,14 @@
             "title": "Hot Dog"
         },
         {
-            "description": "kurwa",
-            "ingredients": "beetroot, water, that's all",
-            "title": "Borsch"
-        },
-        {
             "description": "B",
             "ingredients": "C",
             "title": "A"
+        },
+        {
+            "description": "D",
+            "ingredients": "E",
+            "title": "F"
         }
     ]
 }
