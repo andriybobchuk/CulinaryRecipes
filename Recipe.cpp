@@ -28,3 +28,7 @@ void Recipe::printRecipe() {
 void Recipe::printRecipeTitle() {
     std::cout << this->title;
 }
+
+const std::string &Recipe::getIngredients() const {
+    return ingredients;
+}

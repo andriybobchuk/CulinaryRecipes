@@ -25,6 +25,8 @@ public:
 
     void printRecipeTitle();
 
+    const std::string &getIngredients() const;
+
 
 };
 

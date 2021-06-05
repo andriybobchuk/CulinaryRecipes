@@ -20,4 +20,6 @@ void mainMenu ();
 
 void listRecipes ();
 
+void searchAndList ();
+
 #endif //CULINARYRECIPS_FUNCTIONS_H

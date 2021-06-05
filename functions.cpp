@@ -94,7 +94,7 @@ std::vector<Recipe> objectsFromFile () {
 
 
 void mainMenu () {
-    std::cout << "======================================================================\n";
+    std::cout << "======================================================                \n";
     std::cout << "MAIN MENU                                                             \n";
     std::cout << "Type a switch:                                                        \n";
     std::cout << "-a    to add new recipe                                              \n";
@@ -107,42 +107,58 @@ void mainMenu () {
     if (choice == "-a") {
         // TODO: fileFromObjects();
     } else if (choice == "-s") {
-        // TODO: Search
+        searchAndList();
     } else if (choice == "-l") {
-        // TODO: Print a list
         listRecipes();
-
     } else {
         std::cerr << "Wrong switch\n";
         mainMenu();
     }
 }
 
-void listRecipes () {
-    system("CLS");
-    std::cout << "FOUND " << objectsFromFile().size() << " RECIPES:\n";
-    for (int i = 0; i <= objectsFromFile().size() - 1; i ++) {
-        objectsFromFile()[i].printRecipeTitle();
-        std::cout << "\t\t (Press " << i+1 << " to view)\n";
-    }
-    std::cout << "BACK TO MENU (0) \n";
+void searchAndList () {
+    // Read users ingredients one by one to vector
+    std::cout << "ENTER INGREDIENTS TO SEARCH: ";
+    std::string line;
+    getline(std::cin.ignore(), line); // ignore because of a newline char contained in cin
+    std::istringstream iss(line);
+    std::vector<std::string> inputStrings;
+    for (std::string s; iss >> s; inputStrings.push_back(s));
 
+
+    // TODO: correct finding words with commas
+    // Print matching recipes
+    std::cout << "RECIPES MATCHING SEARCH REQUEST:\n";
+    bool matchesSearchRequest = true;
+    for (int i = 0; i <= objectsFromFile().size() - 1; i++) {
+        for (int j = 0; j <= inputStrings.size() - 1; j++) {
+            if (objectsFromFile()[i].getIngredients().find(inputStrings[j]) == std::string::npos) {
+                matchesSearchRequest = false;
+            }
+        }
+        if (matchesSearchRequest) objectsFromFile()[i].printRecipe();
+    }
+
+    std::cout << "BACK TO MENU (0) \n";
     int choice;
     std::cin >> choice;
     if (choice == 0) {
         mainMenu();
-    } else if (choice >= 1 && choice <= objectsFromFile().size()-1) {
-        objectsFromFile()[choice-1].printRecipe();
-        std::cout << "BACK TO MENU (0) \n";
-        int choice;
-        std::cin >> choice;
-        if (choice == 0) {
-            mainMenu();
-        }
-    } else {
-        std::cerr << "Wrong switch\n";
-        listRecipes();
+    }
+}
+
+void listRecipes () {
+    std::cout << "FOUND " << objectsFromFile().size() << " RECIPES:\n";
+
+    for (int i = 0; i <= objectsFromFile().size() - 1; i ++) {
+        objectsFromFile()[i].printRecipe();
     }
 
+    std::cout << "BACK TO MENU (0) \n";
+    int choice;
+    std::cin >> choice;
+    if (choice == 0) {
+        mainMenu();
+    }
 }
 
