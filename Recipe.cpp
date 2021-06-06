@@ -29,6 +29,15 @@ void Recipe::printRecipeTitle() {
     std::cout << this->title;
 }
 
+// Getters
 const std::string &Recipe::getIngredients() const {
     return ingredients;
+}
+
+const std::string &Recipe::getTitle() const {
+    return title;
+}
+
+const std::string &Recipe::getDescription() const {
+    return description;
 }

@@ -6,6 +6,12 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/Andriy/CLionProjects/CulinaryRecips/Recipe.cpp
+iostream
+-
+Recipe.h
+C:/Users/Andriy/CLionProjects/CulinaryRecips/Recipe.h
+
 C:/Users/Andriy/CLionProjects/CulinaryRecips/Recipe.h
 string
 -
@@ -352,5 +358,15 @@ memory
 utility
 -
 vector
+-
+
+C:/Users/Andriy/CLionProjects/CulinaryRecips/main.cpp
+iostream
+-
+functions.h
+C:/Users/Andriy/CLionProjects/CulinaryRecips/functions.h
+stdlib.h
+-
+crtdbg.h
 -
 

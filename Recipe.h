@@ -27,6 +27,10 @@ public:
 
     const std::string &getIngredients() const;
 
+    const std::string &getTitle() const;
+
+    const std::string &getDescription() const;
+
 
 };
 

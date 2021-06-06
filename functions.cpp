@@ -9,57 +9,53 @@
 #include "json.hpp"
 #include "Recipe.h"
 
-void fileFromObjects () {
-    nlohmann::json j =
-            {
-                    {
-                            "recipes",
-                            {
-                                    {
-                                            {"title", "Varenyky"},
-                                            {"description", "take water, put varenyky inside"},
-                                            {"ingredients", "flour, water, that's all"}
-                                    },
-                                    {
-                                            {"title", "Hot Dog"},
-                                            {"description", "description of my hot dog"},
-                                            {"ingredients", "sausage, ketchup, that's all"}
-                                    },
-                                    {
-                                            {"title", "Borsch"},
-                                            {"description", "kurwa"},
-                                            {"ingredients", "beetroot, water, that's all"}
-                                    }
-                            }
-                    }
-            };
+void inputToObject () {
+
+    std::cout << "\tADD NEW RECIPE:\n";
+    std::cout << "TITLE: ";
+    std::string title;
+    getline(std::cin.ignore(), title);
+
+    std::cout << "\nINGREDIENTS: \n";
+    std::string ingredient;
+    std::string ingredients;
+    while (ingredient != "-n") {
+        ingredients += (ingredient + "\n");
+        getline(std::cin, ingredient);
+    }
+
+    std::cout << "\nDESCRIPTION: \n";
+    std::string line;
+    std::string description;
+    while (line != "-n") {
+        description += (line + "\n");
+        getline(std::cin, line);
+    }
+
+    // Make an object and save it to file
+    Recipe recipe(title, description, ingredients);
+    objectToFile(recipe);
+}
 
 
-    // Adding one more recipe
-    j["recipes"][3] = {{"title","A"},{"description","B"},{"ingredients","C"}};
+void objectToFile (Recipe &recipe) {
+    std::ifstream file("C:\\Users\\Andriy\\CLionProjects\\CulinaryRecips\\CulinaryBook.json");
+    nlohmann::json j = nlohmann::json::parse(file);
 
+    // Adding one more recipe as the next JSON array's object
+    j["recipes"][objectsFromFile().size()] = {{"title", recipe.getTitle()},
+                                              {"description", recipe.getDescription()},
+                                              {"ingredients", recipe.getIngredients()}};
 
     // Saving to file
     std::ofstream o("C:\\Users\\Andriy\\CLionProjects\\CulinaryRecips\\CulinaryBook.json");
     o << std::setw(4) << j << std::endl;
 
-
-    //nlohmann::json::iterator c = j.find("recipes");
-    std::cout << j["recipes"][2]["title"];
-    j["recipes"][3]["title"] = "kawa";
-    j["recipes"][3] = {{"title","A"},{"description","B"},{"ingredients","C"}};
-
-
-
-
-
-
-
-
-
-    // pretty print with indent of 4 spaces
-    std::cout << std::setw(4) << j << '\n';
 }
+
+
+
+
 
 
 
@@ -105,7 +101,7 @@ void mainMenu () {
     std::cin >> choice;
 
     if (choice == "-a") {
-        // TODO: fileFromObjects();
+        inputToObject();
     } else if (choice == "-s") {
         searchAndList();
     } else if (choice == "-l") {

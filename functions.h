@@ -14,12 +14,14 @@
  */
 std::vector<Recipe> objectsFromFile ();
 
-void fileFromObjects ();
+void inputToObject ();
 
 void mainMenu ();
 
 void listRecipes ();
 
 void searchAndList ();
+
+void objectToFile (Recipe &recipe);
 
 #endif //CULINARYRECIPS_FUNCTIONS_H
