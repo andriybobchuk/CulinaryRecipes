@@ -16,7 +16,7 @@ std::vector<Recipe> objectsFromFile ();
 
 void inputToObject ();
 
-void mainMenu ();
+void printMenu ();
 
 void listRecipes ();
 

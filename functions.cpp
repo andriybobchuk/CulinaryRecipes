@@ -89,27 +89,20 @@ std::vector<Recipe> objectsFromFile () {
 
 
 
-void mainMenu () {
-    std::cout << "======================================================                \n";
-    std::cout << "MAIN MENU                                                             \n";
-    std::cout << "Type a switch:                                                        \n";
-    std::cout << "-a    to add new recipe                                              \n";
-    std::cout << "-s    to search for the recipe by ingredient                         \n";
-    std::cout << "-l    to list names of all known recipes                             \n";
+void printMenu () {
+    std::cout << "                                 CULINARY E-BOOK                             \n";
+    std::cout << " _____________________________________Menu_________________________________  \n";
+    std::cout << "| Type a switch:                                                           | \n";
+    std::cout << "|  -a    to add new recipe                                                 | \n";
+    std::cout << "|  -s    to search for the recipe by ingredient                            | \n";
+    std::cout << "|  -l    to list names of all known recipes                                | \n";
+    std::cout << "|  -e    to finish session                                                 | \n";
+    std::cout << "|                                                                          | \n";
+    std::cout << "|                                                                          | \n";
+    std::cout << "|                                                                          | \n";
+    std::cout << "|__________________________________________________________________________| \n";
+    std::cout << "What do you want to do?: ";
 
-    std::string choice;
-    std::cin >> choice;
-
-    if (choice == "-a") {
-        inputToObject();
-    } else if (choice == "-s") {
-        searchAndList();
-    } else if (choice == "-l") {
-        listRecipes();
-    } else {
-        std::cerr << "Wrong switch\n";
-        mainMenu();
-    }
 }
 
 void searchAndList () {
@@ -139,7 +132,7 @@ void searchAndList () {
     int choice;
     std::cin >> choice;
     if (choice == 0) {
-        mainMenu();
+        printMenu();
     }
 }
 
@@ -154,7 +147,7 @@ void listRecipes () {
     int choice;
     std::cin >> choice;
     if (choice == 0) {
-        mainMenu();
+        printMenu();
     }
 }
 

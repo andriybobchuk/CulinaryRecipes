@@ -141,6 +141,114 @@ CulinaryRecips/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CulinaryRecips.dir\build.make CMakeFiles/CulinaryRecips.dir/build
 .PHONY : CulinaryRecips/fast
 
+BakeryRecipe.obj: BakeryRecipe.cpp.obj
+
+.PHONY : BakeryRecipe.obj
+
+# target to build an object file
+BakeryRecipe.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CulinaryRecips.dir\build.make CMakeFiles/CulinaryRecips.dir/BakeryRecipe.cpp.obj
+.PHONY : BakeryRecipe.cpp.obj
+
+BakeryRecipe.i: BakeryRecipe.cpp.i
+
+.PHONY : BakeryRecipe.i
+
+# target to preprocess a source file
+BakeryRecipe.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CulinaryRecips.dir\build.make CMakeFiles/CulinaryRecips.dir/BakeryRecipe.cpp.i
+.PHONY : BakeryRecipe.cpp.i
+
+BakeryRecipe.s: BakeryRecipe.cpp.s
+
+.PHONY : BakeryRecipe.s
+
+# target to generate assembly for a file
+BakeryRecipe.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CulinaryRecips.dir\build.make CMakeFiles/CulinaryRecips.dir/BakeryRecipe.cpp.s
+.PHONY : BakeryRecipe.cpp.s
+
+CakeRecipe.obj: CakeRecipe.cpp.obj
+
+.PHONY : CakeRecipe.obj
+
+# target to build an object file
+CakeRecipe.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CulinaryRecips.dir\build.make CMakeFiles/CulinaryRecips.dir/CakeRecipe.cpp.obj
+.PHONY : CakeRecipe.cpp.obj
+
+CakeRecipe.i: CakeRecipe.cpp.i
+
+.PHONY : CakeRecipe.i
+
+# target to preprocess a source file
+CakeRecipe.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CulinaryRecips.dir\build.make CMakeFiles/CulinaryRecips.dir/CakeRecipe.cpp.i
+.PHONY : CakeRecipe.cpp.i
+
+CakeRecipe.s: CakeRecipe.cpp.s
+
+.PHONY : CakeRecipe.s
+
+# target to generate assembly for a file
+CakeRecipe.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CulinaryRecips.dir\build.make CMakeFiles/CulinaryRecips.dir/CakeRecipe.cpp.s
+.PHONY : CakeRecipe.cpp.s
+
+FileHandler3000.obj: FileHandler3000.cpp.obj
+
+.PHONY : FileHandler3000.obj
+
+# target to build an object file
+FileHandler3000.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CulinaryRecips.dir\build.make CMakeFiles/CulinaryRecips.dir/FileHandler3000.cpp.obj
+.PHONY : FileHandler3000.cpp.obj
+
+FileHandler3000.i: FileHandler3000.cpp.i
+
+.PHONY : FileHandler3000.i
+
+# target to preprocess a source file
+FileHandler3000.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CulinaryRecips.dir\build.make CMakeFiles/CulinaryRecips.dir/FileHandler3000.cpp.i
+.PHONY : FileHandler3000.cpp.i
+
+FileHandler3000.s: FileHandler3000.cpp.s
+
+.PHONY : FileHandler3000.s
+
+# target to generate assembly for a file
+FileHandler3000.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CulinaryRecips.dir\build.make CMakeFiles/CulinaryRecips.dir/FileHandler3000.cpp.s
+.PHONY : FileHandler3000.cpp.s
+
+PremiumRecipe.obj: PremiumRecipe.cpp.obj
+
+.PHONY : PremiumRecipe.obj
+
+# target to build an object file
+PremiumRecipe.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CulinaryRecips.dir\build.make CMakeFiles/CulinaryRecips.dir/PremiumRecipe.cpp.obj
+.PHONY : PremiumRecipe.cpp.obj
+
+PremiumRecipe.i: PremiumRecipe.cpp.i
+
+.PHONY : PremiumRecipe.i
+
+# target to preprocess a source file
+PremiumRecipe.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CulinaryRecips.dir\build.make CMakeFiles/CulinaryRecips.dir/PremiumRecipe.cpp.i
+.PHONY : PremiumRecipe.cpp.i
+
+PremiumRecipe.s: PremiumRecipe.cpp.s
+
+.PHONY : PremiumRecipe.s
+
+# target to generate assembly for a file
+PremiumRecipe.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CulinaryRecips.dir\build.make CMakeFiles/CulinaryRecips.dir/PremiumRecipe.cpp.s
+.PHONY : PremiumRecipe.cpp.s
+
 Recipe.obj: Recipe.cpp.obj
 
 .PHONY : Recipe.obj
@@ -167,6 +275,33 @@ Recipe.s: Recipe.cpp.s
 Recipe.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CulinaryRecips.dir\build.make CMakeFiles/CulinaryRecips.dir/Recipe.cpp.s
 .PHONY : Recipe.cpp.s
+
+RecipeBook.obj: RecipeBook.cpp.obj
+
+.PHONY : RecipeBook.obj
+
+# target to build an object file
+RecipeBook.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CulinaryRecips.dir\build.make CMakeFiles/CulinaryRecips.dir/RecipeBook.cpp.obj
+.PHONY : RecipeBook.cpp.obj
+
+RecipeBook.i: RecipeBook.cpp.i
+
+.PHONY : RecipeBook.i
+
+# target to preprocess a source file
+RecipeBook.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CulinaryRecips.dir\build.make CMakeFiles/CulinaryRecips.dir/RecipeBook.cpp.i
+.PHONY : RecipeBook.cpp.i
+
+RecipeBook.s: RecipeBook.cpp.s
+
+.PHONY : RecipeBook.s
+
+# target to generate assembly for a file
+RecipeBook.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CulinaryRecips.dir\build.make CMakeFiles/CulinaryRecips.dir/RecipeBook.cpp.s
+.PHONY : RecipeBook.cpp.s
 
 functions.obj: functions.cpp.obj
 
@@ -231,9 +366,24 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... CulinaryRecips
+	@echo ... BakeryRecipe.obj
+	@echo ... BakeryRecipe.i
+	@echo ... BakeryRecipe.s
+	@echo ... CakeRecipe.obj
+	@echo ... CakeRecipe.i
+	@echo ... CakeRecipe.s
+	@echo ... FileHandler3000.obj
+	@echo ... FileHandler3000.i
+	@echo ... FileHandler3000.s
+	@echo ... PremiumRecipe.obj
+	@echo ... PremiumRecipe.i
+	@echo ... PremiumRecipe.s
 	@echo ... Recipe.obj
 	@echo ... Recipe.i
 	@echo ... Recipe.s
+	@echo ... RecipeBook.obj
+	@echo ... RecipeBook.i
+	@echo ... RecipeBook.s
 	@echo ... functions.obj
 	@echo ... functions.i
 	@echo ... functions.s

@@ -75,22 +75,9 @@ include CMakeFiles/CulinaryRecips.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/CulinaryRecips.dir/flags.make
 
-CMakeFiles/CulinaryRecips.dir/main.cpp.obj: CMakeFiles/CulinaryRecips.dir/flags.make
-CMakeFiles/CulinaryRecips.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Andriy\CLionProjects\CulinaryRecips\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CulinaryRecips.dir/main.cpp.obj"
-	D:\APPS(P~1\MinGW\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CulinaryRecips.dir\main.cpp.obj -c C:\Users\Andriy\CLionProjects\CulinaryRecips\main.cpp
-
-CMakeFiles/CulinaryRecips.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CulinaryRecips.dir/main.cpp.i"
-	D:\APPS(P~1\MinGW\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Andriy\CLionProjects\CulinaryRecips\main.cpp > CMakeFiles\CulinaryRecips.dir\main.cpp.i
-
-CMakeFiles/CulinaryRecips.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CulinaryRecips.dir/main.cpp.s"
-	D:\APPS(P~1\MinGW\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Andriy\CLionProjects\CulinaryRecips\main.cpp -o CMakeFiles\CulinaryRecips.dir\main.cpp.s
-
 CMakeFiles/CulinaryRecips.dir/Recipe.cpp.obj: CMakeFiles/CulinaryRecips.dir/flags.make
 CMakeFiles/CulinaryRecips.dir/Recipe.cpp.obj: ../Recipe.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Andriy\CLionProjects\CulinaryRecips\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CulinaryRecips.dir/Recipe.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Andriy\CLionProjects\CulinaryRecips\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CulinaryRecips.dir/Recipe.cpp.obj"
 	D:\APPS(P~1\MinGW\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CulinaryRecips.dir\Recipe.cpp.obj -c C:\Users\Andriy\CLionProjects\CulinaryRecips\Recipe.cpp
 
 CMakeFiles/CulinaryRecips.dir/Recipe.cpp.i: cmake_force
@@ -103,7 +90,7 @@ CMakeFiles/CulinaryRecips.dir/Recipe.cpp.s: cmake_force
 
 CMakeFiles/CulinaryRecips.dir/functions.cpp.obj: CMakeFiles/CulinaryRecips.dir/flags.make
 CMakeFiles/CulinaryRecips.dir/functions.cpp.obj: ../functions.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Andriy\CLionProjects\CulinaryRecips\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CulinaryRecips.dir/functions.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Andriy\CLionProjects\CulinaryRecips\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CulinaryRecips.dir/functions.cpp.obj"
 	D:\APPS(P~1\MinGW\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CulinaryRecips.dir\functions.cpp.obj -c C:\Users\Andriy\CLionProjects\CulinaryRecips\functions.cpp
 
 CMakeFiles/CulinaryRecips.dir/functions.cpp.i: cmake_force
@@ -114,23 +101,111 @@ CMakeFiles/CulinaryRecips.dir/functions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CulinaryRecips.dir/functions.cpp.s"
 	D:\APPS(P~1\MinGW\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Andriy\CLionProjects\CulinaryRecips\functions.cpp -o CMakeFiles\CulinaryRecips.dir\functions.cpp.s
 
+CMakeFiles/CulinaryRecips.dir/main.cpp.obj: CMakeFiles/CulinaryRecips.dir/flags.make
+CMakeFiles/CulinaryRecips.dir/main.cpp.obj: ../main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Andriy\CLionProjects\CulinaryRecips\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CulinaryRecips.dir/main.cpp.obj"
+	D:\APPS(P~1\MinGW\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CulinaryRecips.dir\main.cpp.obj -c C:\Users\Andriy\CLionProjects\CulinaryRecips\main.cpp
+
+CMakeFiles/CulinaryRecips.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CulinaryRecips.dir/main.cpp.i"
+	D:\APPS(P~1\MinGW\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Andriy\CLionProjects\CulinaryRecips\main.cpp > CMakeFiles\CulinaryRecips.dir\main.cpp.i
+
+CMakeFiles/CulinaryRecips.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CulinaryRecips.dir/main.cpp.s"
+	D:\APPS(P~1\MinGW\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Andriy\CLionProjects\CulinaryRecips\main.cpp -o CMakeFiles\CulinaryRecips.dir\main.cpp.s
+
+CMakeFiles/CulinaryRecips.dir/FileHandler3000.cpp.obj: CMakeFiles/CulinaryRecips.dir/flags.make
+CMakeFiles/CulinaryRecips.dir/FileHandler3000.cpp.obj: ../FileHandler3000.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Andriy\CLionProjects\CulinaryRecips\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/CulinaryRecips.dir/FileHandler3000.cpp.obj"
+	D:\APPS(P~1\MinGW\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CulinaryRecips.dir\FileHandler3000.cpp.obj -c C:\Users\Andriy\CLionProjects\CulinaryRecips\FileHandler3000.cpp
+
+CMakeFiles/CulinaryRecips.dir/FileHandler3000.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CulinaryRecips.dir/FileHandler3000.cpp.i"
+	D:\APPS(P~1\MinGW\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Andriy\CLionProjects\CulinaryRecips\FileHandler3000.cpp > CMakeFiles\CulinaryRecips.dir\FileHandler3000.cpp.i
+
+CMakeFiles/CulinaryRecips.dir/FileHandler3000.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CulinaryRecips.dir/FileHandler3000.cpp.s"
+	D:\APPS(P~1\MinGW\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Andriy\CLionProjects\CulinaryRecips\FileHandler3000.cpp -o CMakeFiles\CulinaryRecips.dir\FileHandler3000.cpp.s
+
+CMakeFiles/CulinaryRecips.dir/RecipeBook.cpp.obj: CMakeFiles/CulinaryRecips.dir/flags.make
+CMakeFiles/CulinaryRecips.dir/RecipeBook.cpp.obj: ../RecipeBook.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Andriy\CLionProjects\CulinaryRecips\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/CulinaryRecips.dir/RecipeBook.cpp.obj"
+	D:\APPS(P~1\MinGW\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CulinaryRecips.dir\RecipeBook.cpp.obj -c C:\Users\Andriy\CLionProjects\CulinaryRecips\RecipeBook.cpp
+
+CMakeFiles/CulinaryRecips.dir/RecipeBook.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CulinaryRecips.dir/RecipeBook.cpp.i"
+	D:\APPS(P~1\MinGW\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Andriy\CLionProjects\CulinaryRecips\RecipeBook.cpp > CMakeFiles\CulinaryRecips.dir\RecipeBook.cpp.i
+
+CMakeFiles/CulinaryRecips.dir/RecipeBook.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CulinaryRecips.dir/RecipeBook.cpp.s"
+	D:\APPS(P~1\MinGW\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Andriy\CLionProjects\CulinaryRecips\RecipeBook.cpp -o CMakeFiles\CulinaryRecips.dir\RecipeBook.cpp.s
+
+CMakeFiles/CulinaryRecips.dir/BakeryRecipe.cpp.obj: CMakeFiles/CulinaryRecips.dir/flags.make
+CMakeFiles/CulinaryRecips.dir/BakeryRecipe.cpp.obj: ../BakeryRecipe.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Andriy\CLionProjects\CulinaryRecips\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/CulinaryRecips.dir/BakeryRecipe.cpp.obj"
+	D:\APPS(P~1\MinGW\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CulinaryRecips.dir\BakeryRecipe.cpp.obj -c C:\Users\Andriy\CLionProjects\CulinaryRecips\BakeryRecipe.cpp
+
+CMakeFiles/CulinaryRecips.dir/BakeryRecipe.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CulinaryRecips.dir/BakeryRecipe.cpp.i"
+	D:\APPS(P~1\MinGW\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Andriy\CLionProjects\CulinaryRecips\BakeryRecipe.cpp > CMakeFiles\CulinaryRecips.dir\BakeryRecipe.cpp.i
+
+CMakeFiles/CulinaryRecips.dir/BakeryRecipe.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CulinaryRecips.dir/BakeryRecipe.cpp.s"
+	D:\APPS(P~1\MinGW\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Andriy\CLionProjects\CulinaryRecips\BakeryRecipe.cpp -o CMakeFiles\CulinaryRecips.dir\BakeryRecipe.cpp.s
+
+CMakeFiles/CulinaryRecips.dir/PremiumRecipe.cpp.obj: CMakeFiles/CulinaryRecips.dir/flags.make
+CMakeFiles/CulinaryRecips.dir/PremiumRecipe.cpp.obj: ../PremiumRecipe.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Andriy\CLionProjects\CulinaryRecips\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/CulinaryRecips.dir/PremiumRecipe.cpp.obj"
+	D:\APPS(P~1\MinGW\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CulinaryRecips.dir\PremiumRecipe.cpp.obj -c C:\Users\Andriy\CLionProjects\CulinaryRecips\PremiumRecipe.cpp
+
+CMakeFiles/CulinaryRecips.dir/PremiumRecipe.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CulinaryRecips.dir/PremiumRecipe.cpp.i"
+	D:\APPS(P~1\MinGW\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Andriy\CLionProjects\CulinaryRecips\PremiumRecipe.cpp > CMakeFiles\CulinaryRecips.dir\PremiumRecipe.cpp.i
+
+CMakeFiles/CulinaryRecips.dir/PremiumRecipe.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CulinaryRecips.dir/PremiumRecipe.cpp.s"
+	D:\APPS(P~1\MinGW\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Andriy\CLionProjects\CulinaryRecips\PremiumRecipe.cpp -o CMakeFiles\CulinaryRecips.dir\PremiumRecipe.cpp.s
+
+CMakeFiles/CulinaryRecips.dir/CakeRecipe.cpp.obj: CMakeFiles/CulinaryRecips.dir/flags.make
+CMakeFiles/CulinaryRecips.dir/CakeRecipe.cpp.obj: ../CakeRecipe.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Andriy\CLionProjects\CulinaryRecips\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/CulinaryRecips.dir/CakeRecipe.cpp.obj"
+	D:\APPS(P~1\MinGW\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CulinaryRecips.dir\CakeRecipe.cpp.obj -c C:\Users\Andriy\CLionProjects\CulinaryRecips\CakeRecipe.cpp
+
+CMakeFiles/CulinaryRecips.dir/CakeRecipe.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CulinaryRecips.dir/CakeRecipe.cpp.i"
+	D:\APPS(P~1\MinGW\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Andriy\CLionProjects\CulinaryRecips\CakeRecipe.cpp > CMakeFiles\CulinaryRecips.dir\CakeRecipe.cpp.i
+
+CMakeFiles/CulinaryRecips.dir/CakeRecipe.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CulinaryRecips.dir/CakeRecipe.cpp.s"
+	D:\APPS(P~1\MinGW\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Andriy\CLionProjects\CulinaryRecips\CakeRecipe.cpp -o CMakeFiles\CulinaryRecips.dir\CakeRecipe.cpp.s
+
 # Object files for target CulinaryRecips
 CulinaryRecips_OBJECTS = \
-"CMakeFiles/CulinaryRecips.dir/main.cpp.obj" \
 "CMakeFiles/CulinaryRecips.dir/Recipe.cpp.obj" \
-"CMakeFiles/CulinaryRecips.dir/functions.cpp.obj"
+"CMakeFiles/CulinaryRecips.dir/functions.cpp.obj" \
+"CMakeFiles/CulinaryRecips.dir/main.cpp.obj" \
+"CMakeFiles/CulinaryRecips.dir/FileHandler3000.cpp.obj" \
+"CMakeFiles/CulinaryRecips.dir/RecipeBook.cpp.obj" \
+"CMakeFiles/CulinaryRecips.dir/BakeryRecipe.cpp.obj" \
+"CMakeFiles/CulinaryRecips.dir/PremiumRecipe.cpp.obj" \
+"CMakeFiles/CulinaryRecips.dir/CakeRecipe.cpp.obj"
 
 # External object files for target CulinaryRecips
 CulinaryRecips_EXTERNAL_OBJECTS =
 
-CulinaryRecips.exe: CMakeFiles/CulinaryRecips.dir/main.cpp.obj
 CulinaryRecips.exe: CMakeFiles/CulinaryRecips.dir/Recipe.cpp.obj
 CulinaryRecips.exe: CMakeFiles/CulinaryRecips.dir/functions.cpp.obj
+CulinaryRecips.exe: CMakeFiles/CulinaryRecips.dir/main.cpp.obj
+CulinaryRecips.exe: CMakeFiles/CulinaryRecips.dir/FileHandler3000.cpp.obj
+CulinaryRecips.exe: CMakeFiles/CulinaryRecips.dir/RecipeBook.cpp.obj
+CulinaryRecips.exe: CMakeFiles/CulinaryRecips.dir/BakeryRecipe.cpp.obj
+CulinaryRecips.exe: CMakeFiles/CulinaryRecips.dir/PremiumRecipe.cpp.obj
+CulinaryRecips.exe: CMakeFiles/CulinaryRecips.dir/CakeRecipe.cpp.obj
 CulinaryRecips.exe: CMakeFiles/CulinaryRecips.dir/build.make
 CulinaryRecips.exe: CMakeFiles/CulinaryRecips.dir/linklibs.rsp
 CulinaryRecips.exe: CMakeFiles/CulinaryRecips.dir/objects1.rsp
 CulinaryRecips.exe: CMakeFiles/CulinaryRecips.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Andriy\CLionProjects\CulinaryRecips\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable CulinaryRecips.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Andriy\CLionProjects\CulinaryRecips\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable CulinaryRecips.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\CulinaryRecips.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

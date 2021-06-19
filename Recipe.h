@@ -17,21 +17,20 @@ class Recipe {
     static int counter;
 
 public:
+    // Triple argument constructor
     Recipe(std::string title, std::string description, std::string ingredients);
 
+    // Destructor
     ~Recipe();
 
-    void printRecipe();
-
-    void printRecipeTitle();
-
+    // Getters
     const std::string &getIngredients() const;
-
     const std::string &getTitle() const;
-
     const std::string &getDescription() const;
 
-
+    // Print functions
+    void printRecipe();
+    void printRecipeTitle();
 };
 
 

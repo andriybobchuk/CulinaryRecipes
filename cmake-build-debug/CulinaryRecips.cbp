@@ -80,10 +80,40 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/Andriy/CLionProjects/CulinaryRecips/BakeryRecipe.cpp">
+			<Option target="CulinaryRecips"/>
+		</Unit>
+		<Unit filename="C:/Users/Andriy/CLionProjects/CulinaryRecips/BakeryRecipe.h">
+			<Option target="CulinaryRecips"/>
+		</Unit>
+		<Unit filename="C:/Users/Andriy/CLionProjects/CulinaryRecips/CakeRecipe.cpp">
+			<Option target="CulinaryRecips"/>
+		</Unit>
+		<Unit filename="C:/Users/Andriy/CLionProjects/CulinaryRecips/CakeRecipe.h">
+			<Option target="CulinaryRecips"/>
+		</Unit>
+		<Unit filename="C:/Users/Andriy/CLionProjects/CulinaryRecips/FileHandler3000.cpp">
+			<Option target="CulinaryRecips"/>
+		</Unit>
+		<Unit filename="C:/Users/Andriy/CLionProjects/CulinaryRecips/FileHandler3000.h">
+			<Option target="CulinaryRecips"/>
+		</Unit>
+		<Unit filename="C:/Users/Andriy/CLionProjects/CulinaryRecips/PremiumRecipe.cpp">
+			<Option target="CulinaryRecips"/>
+		</Unit>
+		<Unit filename="C:/Users/Andriy/CLionProjects/CulinaryRecips/PremiumRecipe.h">
+			<Option target="CulinaryRecips"/>
+		</Unit>
 		<Unit filename="C:/Users/Andriy/CLionProjects/CulinaryRecips/Recipe.cpp">
 			<Option target="CulinaryRecips"/>
 		</Unit>
 		<Unit filename="C:/Users/Andriy/CLionProjects/CulinaryRecips/Recipe.h">
+			<Option target="CulinaryRecips"/>
+		</Unit>
+		<Unit filename="C:/Users/Andriy/CLionProjects/CulinaryRecips/RecipeBook.cpp">
+			<Option target="CulinaryRecips"/>
+		</Unit>
+		<Unit filename="C:/Users/Andriy/CLionProjects/CulinaryRecips/RecipeBook.h">
 			<Option target="CulinaryRecips"/>
 		</Unit>
 		<Unit filename="C:/Users/Andriy/CLionProjects/CulinaryRecips/functions.cpp">

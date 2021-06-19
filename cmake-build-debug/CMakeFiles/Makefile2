@@ -92,12 +92,12 @@ clean: CMakeFiles/CulinaryRecips.dir/clean
 CMakeFiles/CulinaryRecips.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CulinaryRecips.dir\build.make CMakeFiles/CulinaryRecips.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CulinaryRecips.dir\build.make CMakeFiles/CulinaryRecips.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Andriy\CLionProjects\CulinaryRecips\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4 "Built target CulinaryRecips"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Andriy\CLionProjects\CulinaryRecips\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9 "Built target CulinaryRecips"
 .PHONY : CMakeFiles/CulinaryRecips.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/CulinaryRecips.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Andriy\CLionProjects\CulinaryRecips\cmake-build-debug\CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Andriy\CLionProjects\CulinaryRecips\cmake-build-debug\CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/CulinaryRecips.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Andriy\CLionProjects\CulinaryRecips\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/CulinaryRecips.dir/rule
