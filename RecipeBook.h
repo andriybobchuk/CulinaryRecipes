@@ -8,12 +8,16 @@
 
 #include "Recipe.h"
 #include "BakeryRecipe.h"
+#include "PremiumRecipe.h"
+#include "CakeRecipe.h"
 #include <vector>
 
 class RecipeBook {
 
     std::vector<Recipe> recipes;
-    std::vector<BakeryRecipe> specialRecipes;
+//    std::vector<BakeryRecipe> bakeryRecipes;
+//    std::vector<PremiumRecipe> premiumRecipes;
+//    std::vector<CakeRecipe> cakeRecipes;
 
 public:
 
@@ -21,12 +25,23 @@ public:
 //    ~RecipeBook();
 
     void addNew(Recipe recipe);
-    void addNew(BakeryRecipe recipe);
+//    void addNew(BakeryRecipe recipe);
+//    void addNew(PremiumRecipe recipe);
+//    void addNew(CakeRecipe recipe);
+
+    void addUserRecipe();
+
     void listRecipes();
     void listRecipes(std::vector<std::string> ingredients);
 
     // TODO: + operator
 
+
+    // Getters
+    const std::vector<Recipe> &getRecipes() const;
+//    const std::vector<BakeryRecipe> &getBakeryRecipes() const;
+//    const std::vector<PremiumRecipe> &getPremiumRecipes() const;
+//    const std::vector<CakeRecipe> &getCakeRecipes() const;
 };
 
 

@@ -1,16 +1,14 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/CulinaryRecips.dir/BakeryRecipe.cpp.obj"
-  "CMakeFiles/CulinaryRecips.dir/CakeRecipe.cpp.obj"
-  "CMakeFiles/CulinaryRecips.dir/FileHandler3000.cpp.obj"
-  "CMakeFiles/CulinaryRecips.dir/PremiumRecipe.cpp.obj"
-  "CMakeFiles/CulinaryRecips.dir/Recipe.cpp.obj"
-  "CMakeFiles/CulinaryRecips.dir/RecipeBook.cpp.obj"
-  "CMakeFiles/CulinaryRecips.dir/functions.cpp.obj"
-  "CMakeFiles/CulinaryRecips.dir/main.cpp.obj"
-  "CulinaryRecips.exe"
-  "CulinaryRecips.exe.manifest"
+  "CMakeFiles/CulinaryRecips.dir/BakeryRecipe.cpp.o"
+  "CMakeFiles/CulinaryRecips.dir/CakeRecipe.cpp.o"
+  "CMakeFiles/CulinaryRecips.dir/FileHandler3000.cpp.o"
+  "CMakeFiles/CulinaryRecips.dir/PremiumRecipe.cpp.o"
+  "CMakeFiles/CulinaryRecips.dir/Recipe.cpp.o"
+  "CMakeFiles/CulinaryRecips.dir/RecipeBook.cpp.o"
+  "CMakeFiles/CulinaryRecips.dir/functions.cpp.o"
+  "CMakeFiles/CulinaryRecips.dir/main.cpp.o"
+  "CulinaryRecips"
   "CulinaryRecips.pdb"
-  "libCulinaryRecips.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

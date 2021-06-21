@@ -90,7 +90,7 @@ std::vector<Recipe> objectsFromFile () {
 
 
 void printMenu () {
-    std::cout << "                                 CULINARY E-BOOK                             \n";
+    std::cout << "\n                               CULINARY E-BOOK                             \n";
     std::cout << " _____________________________________Menu_________________________________  \n";
     std::cout << "| Type a switch:                                                           | \n";
     std::cout << "|  -a    to add new recipe                                                 | \n";

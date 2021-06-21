@@ -17,7 +17,7 @@ public:
     FileHandler3000(std::string recipeBookFile);
 
     void readFile(RecipeBook &recipeBook);
-    void writeFile();
+    void writeFile(RecipeBook &recipeBook);
 
 
 };
