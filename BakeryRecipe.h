@@ -5,7 +5,6 @@
 #ifndef CULINARYRECIPS_BAKERYRECIPE_H
 #define CULINARYRECIPS_BAKERYRECIPE_H
 
-
 #include <string>
 #include "Recipe.h"
 
@@ -26,8 +25,7 @@ public:
     const std::string &getDoughNotes() const;
 
     // Print functions
-    //TODO
-    void printRecipe();
+    void printRecipe() const;
     void printRecipeTitle();
 };
 

@@ -8,126 +8,112 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/mnt/c/Users/Andriy/CLionProjects/CulinaryRecips/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Andriy/CLionProjects/CulinaryRecips/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Andriy/CLionProjects/CulinaryRecips/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Andriy/CLionProjects/CulinaryRecips/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Andriy/CLionProjects/CulinaryRecips/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Andriy/CLionProjects/CulinaryRecips/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="rebuild_cache">
-				<Option working_dir="/mnt/c/Users/Andriy/CLionProjects/CulinaryRecips/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Andriy/CLionProjects/CulinaryRecips/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Andriy/CLionProjects/CulinaryRecips/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Andriy/CLionProjects/CulinaryRecips/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Andriy/CLionProjects/CulinaryRecips/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/mnt/c/Users/Andriy/CLionProjects/CulinaryRecips/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Andriy/CLionProjects/CulinaryRecips/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Andriy/CLionProjects/CulinaryRecips/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Andriy/CLionProjects/CulinaryRecips/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Andriy/CLionProjects/CulinaryRecips/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/APPS(P~1/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Andriy/CLionProjects/CulinaryRecips/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/APPS(P~1/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Andriy/CLionProjects/CulinaryRecips/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/APPS(P~1/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Andriy/CLionProjects/CulinaryRecips/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/APPS(P~1/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Andriy/CLionProjects/CulinaryRecips/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="CulinaryRecips">
-				<Option output="/mnt/c/Users/Andriy/CLionProjects/CulinaryRecips/cmake-build-debug/CulinaryRecips" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/mnt/c/Users/Andriy/CLionProjects/CulinaryRecips/cmake-build-debug"/>
+				<Option output="C:/Users/Andriy/CLionProjects/CulinaryRecips/cmake-build-debug/CulinaryRecips.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Andriy/CLionProjects/CulinaryRecips/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
+					<Add directory="D:/APPS (Program files)/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/APPS (Program files)/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/APPS (Program files)/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/APPS (Program files)/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/APPS (Program files)/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/APPS (Program files)/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Andriy/CLionProjects/CulinaryRecips/cmake-build-debug/Makefile&quot;  VERBOSE=1 CulinaryRecips"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Andriy/CLionProjects/CulinaryRecips/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Andriy/CLionProjects/CulinaryRecips/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Andriy/CLionProjects/CulinaryRecips/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/APPS(P~1/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Andriy/CLionProjects/CulinaryRecips/cmake-build-debug/Makefile&quot;  VERBOSE=1 CulinaryRecips"/>
+					<CompileFile command="D:/APPS(P~1/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Andriy/CLionProjects/CulinaryRecips/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/APPS(P~1/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Andriy/CLionProjects/CulinaryRecips/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/APPS(P~1/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Andriy/CLionProjects/CulinaryRecips/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="CulinaryRecips/fast">
-				<Option output="/mnt/c/Users/Andriy/CLionProjects/CulinaryRecips/cmake-build-debug/CulinaryRecips" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/mnt/c/Users/Andriy/CLionProjects/CulinaryRecips/cmake-build-debug"/>
+				<Option output="C:/Users/Andriy/CLionProjects/CulinaryRecips/cmake-build-debug/CulinaryRecips.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Andriy/CLionProjects/CulinaryRecips/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
+					<Add directory="D:/APPS (Program files)/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/APPS (Program files)/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/APPS (Program files)/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/APPS (Program files)/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/APPS (Program files)/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/APPS (Program files)/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Andriy/CLionProjects/CulinaryRecips/cmake-build-debug/Makefile&quot;  VERBOSE=1 CulinaryRecips/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Andriy/CLionProjects/CulinaryRecips/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Andriy/CLionProjects/CulinaryRecips/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Andriy/CLionProjects/CulinaryRecips/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/APPS(P~1/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Andriy/CLionProjects/CulinaryRecips/cmake-build-debug/Makefile&quot;  VERBOSE=1 CulinaryRecips/fast"/>
+					<CompileFile command="D:/APPS(P~1/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Andriy/CLionProjects/CulinaryRecips/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/APPS(P~1/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Andriy/CLionProjects/CulinaryRecips/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/APPS(P~1/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Andriy/CLionProjects/CulinaryRecips/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/Andriy/CLionProjects/CulinaryRecips/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/APPS(P~1/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Andriy/CLionProjects/CulinaryRecips/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/APPS(P~1/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Andriy/CLionProjects/CulinaryRecips/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/APPS(P~1/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Andriy/CLionProjects/CulinaryRecips/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/APPS(P~1/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Andriy/CLionProjects/CulinaryRecips/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/Andriy/CLionProjects/CulinaryRecips/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/APPS(P~1/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Andriy/CLionProjects/CulinaryRecips/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/APPS(P~1/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Andriy/CLionProjects/CulinaryRecips/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/APPS(P~1/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Andriy/CLionProjects/CulinaryRecips/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/APPS(P~1/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Andriy/CLionProjects/CulinaryRecips/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/mnt/c/Users/Andriy/CLionProjects/CulinaryRecips/BakeryRecipe.cpp">
+		<Unit filename="C:/Users/Andriy/CLionProjects/CulinaryRecips/BakeryRecipe.cpp">
 			<Option target="CulinaryRecips"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/Andriy/CLionProjects/CulinaryRecips/BakeryRecipe.h">
+		<Unit filename="C:/Users/Andriy/CLionProjects/CulinaryRecips/BakeryRecipe.h">
 			<Option target="CulinaryRecips"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/Andriy/CLionProjects/CulinaryRecips/CakeRecipe.cpp">
+		<Unit filename="C:/Users/Andriy/CLionProjects/CulinaryRecips/FileHandler3000.cpp">
 			<Option target="CulinaryRecips"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/Andriy/CLionProjects/CulinaryRecips/CakeRecipe.h">
+		<Unit filename="C:/Users/Andriy/CLionProjects/CulinaryRecips/FileHandler3000.h">
 			<Option target="CulinaryRecips"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/Andriy/CLionProjects/CulinaryRecips/FileHandler3000.cpp">
+		<Unit filename="C:/Users/Andriy/CLionProjects/CulinaryRecips/Recipe.cpp">
 			<Option target="CulinaryRecips"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/Andriy/CLionProjects/CulinaryRecips/FileHandler3000.h">
+		<Unit filename="C:/Users/Andriy/CLionProjects/CulinaryRecips/Recipe.h">
 			<Option target="CulinaryRecips"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/Andriy/CLionProjects/CulinaryRecips/PremiumRecipe.cpp">
+		<Unit filename="C:/Users/Andriy/CLionProjects/CulinaryRecips/RecipeBook.cpp">
 			<Option target="CulinaryRecips"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/Andriy/CLionProjects/CulinaryRecips/PremiumRecipe.h">
+		<Unit filename="C:/Users/Andriy/CLionProjects/CulinaryRecips/RecipeBook.h">
 			<Option target="CulinaryRecips"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/Andriy/CLionProjects/CulinaryRecips/Recipe.cpp">
+		<Unit filename="C:/Users/Andriy/CLionProjects/CulinaryRecips/functions.cpp">
 			<Option target="CulinaryRecips"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/Andriy/CLionProjects/CulinaryRecips/Recipe.h">
+		<Unit filename="C:/Users/Andriy/CLionProjects/CulinaryRecips/functions.h">
 			<Option target="CulinaryRecips"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/Andriy/CLionProjects/CulinaryRecips/RecipeBook.cpp">
+		<Unit filename="C:/Users/Andriy/CLionProjects/CulinaryRecips/main.cpp">
 			<Option target="CulinaryRecips"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/Andriy/CLionProjects/CulinaryRecips/RecipeBook.h">
-			<Option target="CulinaryRecips"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/Andriy/CLionProjects/CulinaryRecips/functions.cpp">
-			<Option target="CulinaryRecips"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/Andriy/CLionProjects/CulinaryRecips/functions.h">
-			<Option target="CulinaryRecips"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/Andriy/CLionProjects/CulinaryRecips/main.cpp">
-			<Option target="CulinaryRecips"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/Andriy/CLionProjects/CulinaryRecips/CMakeLists.txt">
+		<Unit filename="C:/Users/Andriy/CLionProjects/CulinaryRecips/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

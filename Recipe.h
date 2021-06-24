@@ -29,7 +29,7 @@ public:
     const std::string &getDescription() const;
 
     // Print functions
-    void printRecipe();
+    void printRecipe() const;
     void printRecipeTitle();
 };
 

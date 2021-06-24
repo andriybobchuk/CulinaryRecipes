@@ -8,6 +8,8 @@
 #include "functions.h"
 #include "json.hpp"
 #include "Recipe.h"
+#include "RecipeBook.h"
+
 
 void inputToObject () {
 
@@ -106,34 +108,7 @@ void printMenu () {
 }
 
 void searchAndList () {
-    // Read users ingredients one by one to vector
-    std::cout << "ENTER INGREDIENTS TO SEARCH: ";
-    std::string line;
-    getline(std::cin.ignore(), line); // ignore because of a newline char contained in cin
-    std::istringstream iss(line);
-    std::vector<std::string> inputStrings;
-    for (std::string s; iss >> s; inputStrings.push_back(s));
 
-
-    // TODO: correct finding words with commas
-    // Print matching recipes
-    std::cout << "RECIPES MATCHING SEARCH REQUEST:\n";
-    bool matchesSearchRequest = true;
-    for (int i = 0; i <= objectsFromFile().size() - 1; i++) {
-        for (int j = 0; j <= inputStrings.size() - 1; j++) {
-            if (objectsFromFile()[i].getIngredients().find(inputStrings[j]) == std::string::npos) {
-                matchesSearchRequest = false;
-            }
-        }
-        if (matchesSearchRequest) objectsFromFile()[i].printRecipe();
-    }
-
-    std::cout << "BACK TO MENU (0) \n";
-    int choice;
-    std::cin >> choice;
-    if (choice == 0) {
-        printMenu();
-    }
 }
 
 void listRecipes () {

@@ -4,14 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/mnt/c/Users/Andriy/CLionProjects/CulinaryRecips/BakeryRecipe.cpp" "/mnt/c/Users/Andriy/CLionProjects/CulinaryRecips/cmake-build-debug/CMakeFiles/CulinaryRecips.dir/BakeryRecipe.cpp.o"
-  "/mnt/c/Users/Andriy/CLionProjects/CulinaryRecips/CakeRecipe.cpp" "/mnt/c/Users/Andriy/CLionProjects/CulinaryRecips/cmake-build-debug/CMakeFiles/CulinaryRecips.dir/CakeRecipe.cpp.o"
-  "/mnt/c/Users/Andriy/CLionProjects/CulinaryRecips/FileHandler3000.cpp" "/mnt/c/Users/Andriy/CLionProjects/CulinaryRecips/cmake-build-debug/CMakeFiles/CulinaryRecips.dir/FileHandler3000.cpp.o"
-  "/mnt/c/Users/Andriy/CLionProjects/CulinaryRecips/PremiumRecipe.cpp" "/mnt/c/Users/Andriy/CLionProjects/CulinaryRecips/cmake-build-debug/CMakeFiles/CulinaryRecips.dir/PremiumRecipe.cpp.o"
-  "/mnt/c/Users/Andriy/CLionProjects/CulinaryRecips/Recipe.cpp" "/mnt/c/Users/Andriy/CLionProjects/CulinaryRecips/cmake-build-debug/CMakeFiles/CulinaryRecips.dir/Recipe.cpp.o"
-  "/mnt/c/Users/Andriy/CLionProjects/CulinaryRecips/RecipeBook.cpp" "/mnt/c/Users/Andriy/CLionProjects/CulinaryRecips/cmake-build-debug/CMakeFiles/CulinaryRecips.dir/RecipeBook.cpp.o"
-  "/mnt/c/Users/Andriy/CLionProjects/CulinaryRecips/functions.cpp" "/mnt/c/Users/Andriy/CLionProjects/CulinaryRecips/cmake-build-debug/CMakeFiles/CulinaryRecips.dir/functions.cpp.o"
-  "/mnt/c/Users/Andriy/CLionProjects/CulinaryRecips/main.cpp" "/mnt/c/Users/Andriy/CLionProjects/CulinaryRecips/cmake-build-debug/CMakeFiles/CulinaryRecips.dir/main.cpp.o"
+  "C:/Users/Andriy/CLionProjects/CulinaryRecips/BakeryRecipe.cpp" "C:/Users/Andriy/CLionProjects/CulinaryRecips/cmake-build-debug/CMakeFiles/CulinaryRecips.dir/BakeryRecipe.cpp.obj"
+  "C:/Users/Andriy/CLionProjects/CulinaryRecips/FileHandler3000.cpp" "C:/Users/Andriy/CLionProjects/CulinaryRecips/cmake-build-debug/CMakeFiles/CulinaryRecips.dir/FileHandler3000.cpp.obj"
+  "C:/Users/Andriy/CLionProjects/CulinaryRecips/Recipe.cpp" "C:/Users/Andriy/CLionProjects/CulinaryRecips/cmake-build-debug/CMakeFiles/CulinaryRecips.dir/Recipe.cpp.obj"
+  "C:/Users/Andriy/CLionProjects/CulinaryRecips/RecipeBook.cpp" "C:/Users/Andriy/CLionProjects/CulinaryRecips/cmake-build-debug/CMakeFiles/CulinaryRecips.dir/RecipeBook.cpp.obj"
+  "C:/Users/Andriy/CLionProjects/CulinaryRecips/functions.cpp" "C:/Users/Andriy/CLionProjects/CulinaryRecips/cmake-build-debug/CMakeFiles/CulinaryRecips.dir/functions.cpp.obj"
+  "C:/Users/Andriy/CLionProjects/CulinaryRecips/main.cpp" "C:/Users/Andriy/CLionProjects/CulinaryRecips/cmake-build-debug/CMakeFiles/CulinaryRecips.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

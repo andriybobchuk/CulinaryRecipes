@@ -3,33 +3,16 @@
 //
 
 #include <iostream>
+#include <sstream>
 #include "RecipeBook.h"
 
-void RecipeBook::addNew(Recipe recipe) {
-    recipes.push_back(recipe);
-}
-
-void RecipeBook::addNew(BakeryRecipe recipe) {
-    this->bakeryRecipes.push_back(recipe);
-}
-
-void RecipeBook::addNew(PremiumRecipe recipe) {
-    this->premiumRecipes.push_back(recipe);
-}
-
-void RecipeBook::addNew(CakeRecipe recipe) {
-    this->cakeRecipes.push_back(recipe);
-}
 
 void RecipeBook::addUserRecipe() {
     std::cout << "Which type of recipe do you want to add? (Pick one):\n";
-    std::cout << "normal\n";
-    std::cout << "bakery\n";
-    std::cout << "premium\n";
-    std::cout << "cake\n";
+    std::cout << "  'normal'\n";
+    std::cout << "  'bakery'\n";
     std::string choice; std::cin >> choice;
-
-
+    
     std::cout << "\tADD NEW RECIPE: (-n to go next)\n";
     std::cout << "TITLE: ";
     std::string title;
@@ -54,93 +37,17 @@ void RecipeBook::addUserRecipe() {
     if (choice == "bakery") {
         std::cout << "DOUGH NOTES: ";
         std::string doughNotes;
-        getline(std::cin.ignore(), doughNotes);
+        getline(std::cin, doughNotes);
         BakeryRecipe recipe(title, description, ingredients, doughNotes);
         bakeryRecipes.push_back(recipe);
-    } else if (choice == "premium") {
-        std::cout << "PRICE: ";
-        std::string price;
-        getline(std::cin.ignore(), price);
-        PremiumRecipe recipe(title, description, ingredients, stod(price));
-        premiumRecipes.push_back(recipe);
-    } else if (choice == "cake") {
-        std::cout << "DOUGH NOTES: ";
-        std::string doughNotes;
-        getline(std::cin.ignore(), doughNotes);
-        std::cout << "PRICE: ";
-        std::string price;
-        getline(std::cin.ignore(), price);
-        std::cout << "CAKE TYPE: ";
-        std::string cakeType;
-        getline(std::cin.ignore(), cakeType);
-        // Make an object and save it to file
-        CakeRecipe recipe(title, description, ingredients, doughNotes, stod(price), cakeType);
-        cakeRecipes.push_back(recipe);
     } else {
         // Make an object and save it to file
         Recipe recipe(title, description, ingredients);
         recipes.push_back(recipe);
     }
-
-
-
 }
 
-//void RecipeBook::addUserNormal() {
-//
-//    std::cout << "\tADD NEW RECIPE:\n";
-//    std::cout << "TITLE: ";
-//    std::string title;
-//    getline(std::cin.ignore(), title);
-//
-//    std::cout << "\nINGREDIENTS: \n";
-//    std::string ingredient;
-//    std::string ingredients;
-//    while (ingredient != "-n") {
-//        ingredients += (ingredient + "\n");
-//        getline(std::cin, ingredient);
-//    }
-//
-//    std::cout << "\nDESCRIPTION: \n";
-//    std::string line;
-//    std::string description;
-//    while (line != "-n") {
-//        description += (line + "\n");
-//        getline(std::cin, line);
-//    }
-//
-//    // Make an object and save it to file
-//    Recipe recipe(title, description, ingredients);
-//    recipes.push_back(recipe);
-//}
-//void RecipeBook::addUserBakery() {
-//
-//    std::cout << "\tADD NEW RECIPE:\n";
-//    std::cout << "TITLE: ";
-//    std::string title;
-//    getline(std::cin.ignore(), title);
-//
-//    std::cout << "\nINGREDIENTS: \n";
-//    std::string ingredient;
-//    std::string ingredients;
-//    while (ingredient != "-n") {
-//        ingredients += (ingredient + "\n");
-//        getline(std::cin, ingredient);
-//    }
-//
-//    std::cout << "\nDESCRIPTION: \n";
-//    std::string line;
-//    std::string description;
-//    while (line != "-n") {
-//        description += (line + "\n");
-//        getline(std::cin, line);
-//    }
-//
-//    // Make an object and save it to file
-//    Recipe recipe(title, description, ingredients);
-//    recipes.push_back(recipe);
-//}
-
+// Normal list function
 void RecipeBook::listRecipes() {
 
     // For normal Recipe
@@ -152,21 +59,36 @@ void RecipeBook::listRecipes() {
     for (BakeryRecipe recipe : bakeryRecipes) {
         recipe.printRecipe();
     }
-
-    // For prime recipe
-    for (PremiumRecipe recipe : premiumRecipes) {
-        recipe.printRecipe();
-    }
-
-    // For cake recipe
-    for (CakeRecipe recipe : cakeRecipes) {
-        recipe.printRecipe();
-    }
-
 }
 
-// TODO: Implement
-void RecipeBook::listRecipes(std::vector<std::string> ingredients) {}
+// List function for given keywords
+void RecipeBook::listRecipes(std::vector<std::string> ingredients) {
+
+    // Print matching recipes
+    // Working currently on AND logic. If you want OR then just change o to 1 and vice versa
+    std::cout << "RECIPES MATCHING SEARCH REQUEST:\n";
+    bool matchesSearchRequest = true;
+    for (int i = 0; i <= getRecipes().size() - 1; i++) {
+        for (int j = 0; j <= ingredients.size() - 1; j++) {
+            if (getRecipes()[i].getIngredients().find(ingredients[j]) == -1) {
+                matchesSearchRequest = false;
+            }
+        }
+        if (matchesSearchRequest) getRecipes()[i].printRecipe();
+        matchesSearchRequest = true;
+    }
+
+    matchesSearchRequest = true;
+    for (int i = 0; i <= getBakeryRecipes().size() - 1; i++) {
+        for (int j = 0; j <= ingredients.size() - 1; j++) {
+            if (getBakeryRecipes()[i].getIngredients().find(ingredients[j]) == -1) {
+                matchesSearchRequest = false;
+            }
+        }
+        if (matchesSearchRequest) getBakeryRecipes()[i].printRecipe();
+        matchesSearchRequest = true;
+    }
+}
 
 
 // Getters
@@ -178,10 +100,23 @@ const std::vector<BakeryRecipe> &RecipeBook::getBakeryRecipes() const {
     return bakeryRecipes;
 }
 
-const std::vector<PremiumRecipe> &RecipeBook::getPremiumRecipes() const {
-    return premiumRecipes;
+// Setters for adding elements to vectors
+void RecipeBook::addNew(Recipe recipe) {
+    recipes.push_back(recipe);
 }
 
-const std::vector<CakeRecipe> &RecipeBook::getCakeRecipes() const {
-    return cakeRecipes;
+void RecipeBook::addNew(BakeryRecipe recipe) {
+    this->bakeryRecipes.push_back(recipe);
 }
+
+void RecipeBook::operator+(Recipe recipe) {
+    recipes.push_back(recipe);
+}
+
+void RecipeBook::operator+(BakeryRecipe recipe) {
+    recipes.push_back(recipe);
+}
+
+RecipeBook::RecipeBook() {}
+
+RecipeBook::~RecipeBook() {}

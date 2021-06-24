@@ -20,7 +20,7 @@ Recipe::~Recipe() {
     counter--;
 }
 
-void Recipe::printRecipe() {
+void Recipe::printRecipe() const {
     std::cout << "======================================================\n";
     std::cout << "TITLE: \n" << this->title << "\n\nDESCRIPTION: \n" << this->description << "\n\nINGREDIENTS: \n" << this->ingredients << "\n\n";
 }

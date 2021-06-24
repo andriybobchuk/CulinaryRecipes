@@ -1,1 +1,3 @@
-/usr/bin/c++  -g   CMakeFiles/CulinaryRecips.dir/Recipe.cpp.o CMakeFiles/CulinaryRecips.dir/functions.cpp.o CMakeFiles/CulinaryRecips.dir/main.cpp.o CMakeFiles/CulinaryRecips.dir/FileHandler3000.cpp.o CMakeFiles/CulinaryRecips.dir/RecipeBook.cpp.o CMakeFiles/CulinaryRecips.dir/BakeryRecipe.cpp.o CMakeFiles/CulinaryRecips.dir/PremiumRecipe.cpp.o CMakeFiles/CulinaryRecips.dir/CakeRecipe.cpp.o  -o CulinaryRecips 
+"D:\APPS (Program files)\CLion\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\CulinaryRecips.dir/objects.a
+D:\APPS(P~1\MinGW\mingw64\bin\ar.exe cr CMakeFiles\CulinaryRecips.dir/objects.a @CMakeFiles\CulinaryRecips.dir\objects1.rsp
+D:\APPS(P~1\MinGW\mingw64\bin\G__~1.EXE -g -Wl,--whole-archive CMakeFiles\CulinaryRecips.dir/objects.a -Wl,--no-whole-archive -o CulinaryRecips.exe -Wl,--out-implib,libCulinaryRecips.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\CulinaryRecips.dir\linklibs.rsp

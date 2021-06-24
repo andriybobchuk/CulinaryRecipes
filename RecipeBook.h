@@ -5,43 +5,53 @@
 #ifndef CULINARYRECIPS_RECIPEBOOK_H
 #define CULINARYRECIPS_RECIPEBOOK_H
 
-
 #include "Recipe.h"
 #include "BakeryRecipe.h"
-#include "PremiumRecipe.h"
-#include "CakeRecipe.h"
 #include <vector>
+
+/**
+ * Class which represents a book of recipes containing two chapters: chapter with basic recipes and bakery ones.
+ * Should have only one instance throughout the app execution.
+ */
 
 class RecipeBook {
 
-    std::vector<Recipe> recipes;
-//    std::vector<BakeryRecipe> bakeryRecipes;
-//    std::vector<PremiumRecipe> premiumRecipes;
-//    std::vector<CakeRecipe> cakeRecipes;
+    std::vector<Recipe> recipes;    /**< A chapter of a recipe book which stores basic recipes */
+    std::vector<BakeryRecipe> bakeryRecipes;    /**< A chapter of a book which stores bakery recipes */
 
 public:
 
-//    RecipeBook();
-//    ~RecipeBook();
+    RecipeBook();    //!< Default constructor (Not in use)
+    ~RecipeBook();   //!< Destructor
 
-    void addNew(Recipe recipe);
-//    void addNew(BakeryRecipe recipe);
-//    void addNew(PremiumRecipe recipe);
-//    void addNew(CakeRecipe recipe);
-
+    /**
+     * Takes input from user and adds new generated recipe to a book
+     */
     void addUserRecipe();
 
+    /**
+     * Lists ALL the recipes
+     */
     void listRecipes();
-    void listRecipes(std::vector<std::string> ingredients);
 
-    // TODO: + operator
+    /**
+     * Lists ONLY recipes containing ingredients keywords
+     * @param ingredients a vector of keywords
+     */
+    void listRecipes(std::vector<std::string> ingredients);
 
 
     // Getters
-    const std::vector<Recipe> &getRecipes() const;
-//    const std::vector<BakeryRecipe> &getBakeryRecipes() const;
-//    const std::vector<PremiumRecipe> &getPremiumRecipes() const;
-//    const std::vector<CakeRecipe> &getCakeRecipes() const;
+    const std::vector<Recipe> &getRecipes() const;      //!< gets vector of basic recipes
+    const std::vector<BakeryRecipe> &getBakeryRecipes() const;      //!< gets vector of bakery recipes
+
+    // Setters (add elements to vectors)
+    void addNew(Recipe recipe);    //!< pushes back to vector of basic recipes
+    void addNew(BakeryRecipe recipe);    //!< pushes back to vector of bakery recipes
+
+    // Operators
+    void operator + (Recipe recipe);    //!< Same as addNew
+    void operator + (BakeryRecipe recipe);  //!< Same as addNew
 };
 
 
